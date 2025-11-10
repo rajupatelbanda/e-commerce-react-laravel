@@ -9,4 +9,6 @@ DB_DATABASE=
 DB_USERNAME=root
 DB_PASSWORD=
 
-run php artisan migrate
+php artisan migrate
+
+php artisan key:generate
